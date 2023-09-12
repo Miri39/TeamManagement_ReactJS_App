@@ -1,0 +1,148 @@
+*{
+ color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+a{
+  color: black;
+  text-decoration: none;
+}
+.mainNav{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.mainButtons{
+  width: 40vw;
+  height: 40vh;
+  margin: 10px;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background: lightblue;
+  border-radius: 100px;
+  line-height: 200px;
+  font-size: 40px;
+}
+
+.teamBox{
+  min-height: 200px;
+  width: 80vw;
+  margin: 30px 10vw;
+  border-radius: 20px;
+}
+
+.teamBox img{
+  float: left;
+  height: 100%;
+  margin-left: 30px;
+}
+
+.teamBox h3{
+  clear: left;
+  margin-top: 0;
+}
+
+.NavBar{
+  display: flex;
+  justify-content: space-around;
+}
+
+.NavBar h2{
+  font-weight: bold;
+}
+
+.singleTeamBox{
+  margin-left: 5vw;
+  margin-right: auto;
+  width: 90vw;
+  height: 80vh;
+}
+
+.floatedRight{
+  float: right;
+}
+
+.svgBackground{
+  z-index: -1;
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  background-size: cover;
+
+}
+
+.hexagons{
+  background-image: url("./low-poly-grid-haikei.svg");
+}
+
+.doubleWaves{
+  background-image: url("./blob-scene-haikei.svg");
+}
+
+.blurryGradient{
+  background-image: url("./blurry-gradient-haikei.svg");
+  background-size: cover;
+}
+
+.circles{
+  background-image: url("circle-scatter-haikei (1).svg");
+}
+
+.pointyWaves{
+  background-image: url("layered-peaks-haikei.svg");
+}
+.blockWaves{
+  background-image: url("layered-steps-haikei.svg");
+}
+.blockStack{
+  background-image: url("stacked-steps-haikei.svg");
+}
+input{
+  color: black;
+}
+button{
+  color: black;
+}
+
